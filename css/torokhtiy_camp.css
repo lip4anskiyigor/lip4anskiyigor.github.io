@@ -1,0 +1,244 @@
+ .torokhtiy_camp{
+  	background-image: url("../img/bg-camp.png");
+  	background-position: 0 50%;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	padding-bottom: 65px;
+  }
+ .torokhtiy_camp .title h2{
+ 	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 32px;
+	margin-top: -20px;
+	margin-bottom: 60px;
+ } 
+  .torokhtiy_camp .title h2 span{
+  	color: #df1f1f;
+  }
+  .torokhtiy_camp .camp_content{
+  	height: 550px;
+  	-webkit-box-shadow: 0px -24px 39px -29px rgba(168,165,168,1);
+	-moz-box-shadow: 0px -24px 39px -29px rgba(168,165,168,1);
+	box-shadow: 0px -24px 39px -29px rgba(168,165,168,1);
+  }
+  
+  .torokhtiy_camp .camp_content .photo{
+  	float: left;
+  }
+  .torokhtiy_camp .camp_content .photo .img{
+  	background-image: url("../img/image.png");
+  	background-position: -70px 0px;
+  	width: 327px;
+  	padding-bottom: 275px;
+  	padding-top: 275px;
+
+  }
+.torokhtiy_camp .camp_content .inform{
+	background-color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 35px;
+	float: left;
+	width: 618px;
+}
+.torokhtiy_camp .camp_content .inform .inform_item{
+	overflow: hidden;
+	font-family: 'proxima_nova_rgregular', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+.torokhtiy_camp .camp_content .inform .inform_item p{
+	margin-bottom: 0;
+	padding: 10px 14px;
+}
+.torokhtiy_camp .camp_content .inform .inform_item p i{
+	color: #df1f1f;
+	padding-right: 15px;
+}
+.torokhtiy_camp .camp_content .inform .inform_item .camp_map{
+	font-size: 14px;
+	color: #df1f1f;
+	text-decoration: underline;
+
+
+}
+.torokhtiy_camp .camp_content .inform .inform_item .camp_date{
+	float: left;
+	border: 1px solid #ededed;
+	margin-right: 30px;
+	border-radius: 5px;
+	
+
+}
+.torokhtiy_camp .camp_content .inform .inform_item .camp_place{
+	float: left;
+	border: 1px solid #ededed;
+	margin-right: 30px;
+	border-radius: 5px;
+}
+.torokhtiy_camp .camp_content .inform .inform_item .camp_map{
+	float: left;
+}
+.torokhtiy_camp .camp_content .camp_item{
+	background-color: #f9f9f9;
+	font-family: 'proxima_nova_ltlight';
+	color: #343434;
+	font-size: 15px;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 31px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #f0f0f0;
+	border-radius: 5px; 
+	margin-top: 30px;
+}
+.torokhtiy_camp .camp_content .camp_item li{
+	position: relative;
+	margin-bottom: 15px;
+    line-height: 1.2;
+}
+.torokhtiy_camp .camp_content .camp_item li:last-child{
+	margin-bottom: 0;
+}
+.torokhtiy_camp .camp_content .camp_item li:before{
+	content: "";
+	background-image: url("../img/circle.png");
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	top: 7px;
+	left: -25px;
+}
+.torokhtiy_camp .camp_content .camp_button{
+	display: block;
+	width: 155px;
+	background-color: #df1f1f;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	padding: 18px 0px;
+	letter-spacing: 2px;
+	border-radius: 35px;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	position: relative;
+}
+.torokhtiy_camp .camp_content .camp_button:before{
+	content: "";
+	border: 2px solid #ebebec;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, 0);
+	left: -120px;
+    width: 160px;
+}
+.torokhtiy_camp .camp_content .camp_button:after{
+	content: "";
+	border: 2px solid #ebebec;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, 0);
+	right: -280px;
+    width: 160px;
+}
+@media (min-width: 750px) and (max-width: 1170px){
+	.torokhtiy_camp{
+		background-position: 50% 50%;
+	}
+	
+.torokhtiy_camp .camp_content .photo{
+	float: none;
+}
+.torokhtiy_camp .camp_content .photo .img{
+  	background-position: 0px -100px;
+  	width: 100%;
+  	padding-bottom: 150px;
+  	padding-top: 150px;
+
+  }
+  .torokhtiy_camp .camp_content .inform{
+  	width: 720px;
+  }
+  .torokhtiy_camp .camp_content .inform{
+  	-webkit-box-shadow: 0px 30px 45px -36px rgba(204,200,204,1);
+-moz-box-shadow: 0px 30px 45px -36px rgba(204,200,204,1);
+box-shadow: 0px 30px 45px -36px rgba(204,200,204,1);
+  }
+  
+
+	}
+
+@media (min-width: 320px) and (max-width: 750px){
+	.torokhtiy_camp{
+		background-image: none;
+	}
+	.torokhtiy_camp .title h2{
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+ } 
+.torokhtiy_camp .camp_content .photo{
+	float: none;
+}
+.torokhtiy_camp .camp_content .photo .img{
+  	background-position: 0px 0px;
+  	width: 100%;
+  	padding-bottom: 110px;
+  	padding-top: 110px;
+  	background-size: cover;
+
+  }
+.torokhtiy_camp .camp_content .inform{
+	position: relative;
+		width: 100%;
+		padding-right: 0px;
+		padding-left: 0px;
+		-webkit-box-shadow: 0px 0px 40px -6px rgba(212,208,212,1);
+-moz-box-shadow: 0px 0px 40px -6px rgba(212,208,212,1);
+box-shadow: 0px 0px 40px -6px rgba(212,208,212,1);
+}
+.torokhtiy_camp .camp_content .inform .inform_item .camp_date{
+	position: absolute;
+	left: 50%;
+	top: -22px;
+	background-color: #ffffff;
+	transform: translate(-50%, 0);
+	width: 135px;
+}
+.torokhtiy_camp .camp_content .inform .inform_item .camp_place{
+	text-align: center;
+	border: none;
+	margin-right: 0px;
+	padding: 0 25px;
+}
+.torokhtiy_camp .camp_content .inform .inform_item .camp_place i{
+	display: block;
+	padding-bottom: 10px;
+}
+.torokhtiy_camp .camp_content .inform .inform_item .camp_map{
+	display: none;
+}
+.torokhtiy_camp .camp_content .camp_item{
+	border-bottom: none;
+}
+.torokhtiy_camp .camp_content .camp_item li{
+	font-size: 14px;
+    
+}
+.torokhtiy_camp .camp_content .camp_button{
+	width: 113px;
+	padding: 11px 0;
+}
+.torokhtiy_camp .camp_content .camp_button:after{
+	width: 60px;
+	right: -118px;
+}
+.torokhtiy_camp .camp_content .camp_button:before{
+	width: 60px;
+	left: -59px;
+}
+}

@@ -1,0 +1,91 @@
+.torokhtiy_insta{
+	margin-bottom: 120px;
+}
+.torokhtiy_insta .title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 32px;
+	margin-top: 100px;
+}
+.torokhtiy_insta .title h2 i{
+	padding-right: 20px;
+}
+.torokhtiy_insta .title p{
+	font-family: 'proxima_nova_rgregular', sans-serif;
+	font-size: 16px;
+	background-color: #f6f6f6;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-bottom: 100px;
+}
+.torokhtiy_insta .title p span{
+	font-family: 'proxima_nova_rgbold';
+}
+.torokhtiy_insta .title p a{
+	color: #000000;
+}
+.torokhtiy_insta .torokhtiy_insta_wrap{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	-moz-transition: background 1s linear;
+	-webkit-transition: background 1s linear;
+	-o-transition: background 1s linear;
+	transition: background 1s linear;
+
+} 
+.torokhtiy_insta .torokhtiy_insta_wrap .torokhtiy_insta_wrap_bg:before{
+	content: '';
+	width: 70%;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+.torokhtiy_insta .torokhtiy_insta_photo_first_row{
+	margin-bottom: 30px;
+}
+.torokhtiy_insta .insta_photo_item{
+	position: relative;
+}
+.torokhtiy_insta .insta_photo_item:hover:before{
+	content: "";
+	background-image: url("../img/search.png");
+	width: 55px;
+	height: 57px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 5;
+}
+.torokhtiy_insta .insta_photo_item:hover:after{
+	content: "";
+	background-color: rgba(0,0,0, 0.5);
+	position: absolute;
+	width: 90%;
+	height: auto;
+	top: 0;
+	bottom: 0;
+	cursor: pointer;
+  }
+  @media (min-width: 750px) and (max-width: 1170px){
+
+.torokhtiy_insta .insta_photo_item img{
+	width: 158px;
+	height: 158px;
+}
+
+  }
+
+
+  @media (min-width: 320px) and (max-width: 750px){
+
+.torokhtiy_insta{
+	display: none;
+}
+
+  }

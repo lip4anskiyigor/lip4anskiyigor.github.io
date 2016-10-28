@@ -1,0 +1,315 @@
+.choice{
+	background-image: url("../img/bg-choice.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	padding-bottom: 110px;
+}
+.choice h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 44px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+.choice h2 span{
+	color: #df1f1f;
+	letter-spacing: 15px;
+	padding-left: 25px;
+    padding-right: 10px;
+}
+.choice .plan{
+	background-color: #ffffff;
+	position: relative;
+}
+.choice .plan h2{
+	color: #df1f1f;
+	font-size: 34px;
+	font-family: 'proxima_nova_rgbold';
+	text-transform: uppercase;
+	padding: 0;
+}
+.choice .plan .plan_item.sec-col h2{
+	font-family: 'proxima_nova_rgregular', sans-serif;
+}
+.choice .plan .plan_item.thr-col h2{
+	font-family: 'proxima_nova_rgregular', sans-serif;
+}
+.choice .plan .plan_item{
+	border-right: 1px solid #efefef;
+	min-height: 818px;
+}
+.choice .plan .plan_item.four-col{
+	background-color: #df1f1f;
+	position: relative;
+	-webkit-box-shadow: -30px 0px 36px -10px rgba(230,230,230,1);
+-moz-box-shadow: -30px 0px 36px -10px rgba(230,230,230,1);
+box-shadow: -30px 0px 36px -10px rgba(230,230,230,1);
+}
+.choice .plan .plan_item.four-col h3{
+	position: relative;
+	text-align: center;
+	letter-spacing: 2px;
+	color: white;
+	padding-left: 13px;
+	padding-top: 35px;
+}
+.choice .plan .plan_item.four-col h2{
+	position: relative;
+	color: white;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.choice .plan .plan_item.four-col h2:before{
+	content: "";
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 40px;
+    top: 20px;
+    left: 35px;
+}
+.choice .plan .plan_item.four-col h2:after{
+	content: "";
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 40px;
+    top: 20px;
+    right: 26px;
+}
+.choice .plan .plan_item.four-col h3:before{
+	content: "";
+	position: absolute;
+	width: 185px;
+	height: 185px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+    left: 40px;
+    top: -25px;
+}
+.choice .plan .plan_item.four-col:before{
+	content: "";
+	position: absolute;
+	background-color: #df1f1f;
+	top: -30px;
+	right: -17px;
+	left: 0px;
+	bottom: -30px; 
+}
+.choice .plan .plan_item.four-col li{
+	margin-bottom: 7px;
+	color: #ffffff;
+}
+.choice .plan .plan_item.four-col li:before{
+	content: "";
+	position: absolute;
+	background-image: url("../img/check2.png");
+	width: 14px;
+	height: 12px;
+	left: 10px;
+	top: 3px;
+}
+.choice .plan h3{
+	color: #000000;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.choice .plan p{
+	color: #686868;
+	font-size: 14px;
+	font-family: 'proxima_nova_rgregular', sans-serif;
+	padding-left: 10px;
+}
+.choice .plan li{
+	position: relative;
+	color: #000000;
+	font-size: 14px;
+	font-family: 'proxima_nova_ltlight';
+	padding-left: 30px;
+    padding-right: 40px;
+    margin-bottom: 15px;
+
+}
+.choice .plan li:before{
+	content: "";
+	position: absolute;
+	background-image: url("../img/check.png");
+	width: 14px;
+	height: 12px;
+	left: 10px;
+	top: 3px;
+}
+.choice .plan a{
+	display: block;
+	width: 165px;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: absolute;
+	bottom: 30px;
+	background-color: #f31818;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 15px;
+	padding: 15px 0;
+	border-radius: 25px;
+}
+.choice .plan a:hover{
+	background-color: #ffffff;
+	color: #f31818;
+	border: 2px solid #f31818;
+}
+.choice .plan .plan_item.four-col a{
+	background-color: #ffffff;	
+	color: #f31818;
+}
+
+@media (min-width: 750px) and (max-width: 1170px){
+	.choice{
+	
+	background-position: 50% 50%;
+	
+}
+.choice h2{
+	
+	font-size: 32px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.choice .plan .plan_item{
+	min-height: 520px;
+	background-color: #ffffff;
+}
+.choice .plan{
+	overflow: hidden;
+}
+.choice .plan h2{
+	font-size: 30px;
+	
+}
+.choice .plan li{
+    margin-bottom: 0px;
+
+}
+.choice .plan a{
+	width: 120px;
+	bottom: 30px;
+	background-color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	color: #e32323;
+	font-size: 14px;
+	padding: 10px 0;
+	border: 2px solid #e32323;
+	border-radius: 25px;
+}
+.choice .plan .plan_item.thr-col{
+	border-right: none;
+}
+.choice .plan .plan_item.four-col:before{
+	left: -15px;
+	top: 0;
+}
+.choice .plan .plan_item.four-col h2{
+	font-size: 38px;
+	top: 30px;
+	font-family: 'ProximaNova';
+	padding-bottom: 100px;
+}
+.choice .plan .plan_item.four-col h3{
+	top: 30px;
+	padding-left: 5px;
+	font-family: 'ProximaNova';
+	letter-spacing: 3px;
+
+}
+.choice .plan .plan_item.four-col h3:before{
+	left: 50%;
+	transform: translate(-50%, 0);
+	
+}
+.choice .plan .plan_item.four-col h2:after{
+	right: 36%;
+}
+.choice .plan .plan_item.four-col h2:before{
+	left: 36%;
+}
+.choice .plan .plan_item .plan_item_col{
+	float: left;
+	width: 225px;
+}
+
+	}
+
+
+@media (min-width: 320px) and (max-width: 750px){
+.choice{
+	padding-bottom: 40px;
+}
+.choice h2{
+	
+	font-size: 38px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	word-break: break-word;
+    padding-left: 45px;
+    padding-right: 45px;
+    letter-spacing: 2px;
+}
+.choice .plan{
+	background-color: transparent;
+}
+.choice .plan a{
+	font-size: 14px;
+	width: 125px;
+	background-color: white;
+	color: #f31818;
+	border: 2px solid #f31818;
+	padding: 9px 0;
+}
+.choice .plan .plan_item{
+	min-height: auto;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	border: none;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.choice .plan .plan_item ul{
+	text-align: left;
+}
+.choice .plan li{
+	padding-right: 46px;
+}
+.choice .plan .plan_item.four-col{
+	box-shadow: none;
+}
+
+.choice .plan .plan_item.four-col:before{
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.choice .plan .plan_item.four-col h3{
+	padding-left: 5px;
+	font-family: 'ProximaNova';
+	letter-spacing: 3px;
+	padding-top: 55px;
+
+}
+.choice .plan .plan_item.four-col h3:before{
+	top: -5px;
+}
+.choice .plan .plan_item h2{
+	font-family: 'ProximaNova';
+	font-weight: 400;
+}
+
+
+
+
+
+
+}

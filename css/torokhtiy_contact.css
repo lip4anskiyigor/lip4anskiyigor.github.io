@@ -1,0 +1,256 @@
+.torokhtiy_contact{
+	position: relative;
+	padding-bottom: 70px;
+}
+.torokhtiy_contact:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 60px;
+	bottom: 0;
+	background-color: #f5f5f5;
+	width: 65px;
+}
+.torokhtiy_contact:after{
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 60px;
+	bottom: 0;
+	background-color: #f5f5f5;
+	width: 65px;
+}
+.torokhtiy_contact .torokhtiy_contact_title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 32px;
+	color: #1d1d22;
+	margin-bottom: 90px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact{
+	font-family: 'proxima_nova_rgbold';
+	font-size: 26px;
+	
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact p a{
+	color: #1d1d22;	
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact p a i{
+	color: #df1f1f;	
+	padding-right: 30px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .mail{
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .viber{
+	background-color: #f4f4f4;
+	font-size: 20px; 
+	width: 320px;   
+	border-radius: 3px;
+	margin-top: 15px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .viber span{
+	vertical-align: middle;
+    padding-left: 20px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network li{
+	border-right: 1px solid #e7e7e7;
+	padding-right: 25px;
+	padding-left: 20px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network li:last-child{
+	border-right: none;
+	padding-right: 0px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network li:first-child{
+	padding-left: 0;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network{
+	font-family: 'ProximaNova', sans-serif;
+	margin-top: 60px;
+	position: relative;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network:after{
+	content: "";
+	position: absolute;
+	bottom: -40px;
+	left: -5px;
+	height: 2px;
+	background-color: #df1f1f;
+	width: 100px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network a{
+	color: #1d1d22
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network a:hover i{
+	color: #df1f1f;	
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network i{
+	display: block;
+	text-align: center;
+	font-size: 22px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network .amounds{
+	font-size: 19px;
+	display: block;
+	text-align: center;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network .subscr{
+	font-size: 11px;
+	display: block;
+	text-align: center;
+	color: #939393;
+	
+}
+.torokhtiy_contact .torokhtiy_contact_content .copyright{
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 70px;
+}
+
+
+.torokhtiy_contact .torokhtiy_contact_content .post_form form input{
+	display: block;
+	outline: none;
+	font-size: 18px;
+	font-family: 'proxima_nova_rgbold';
+	color: #1d1d22;
+	border-bottom: 2px solid #1d1d22;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 360px;
+	padding-bottom: 10px;
+	margin-bottom: 60px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form form textarea{
+	display: block;
+	outline: none;
+	font-size: 18px;
+	font-family: 'proxima_nova_rgbold';
+	color: #1d1d22;
+	border-bottom: 2px solid #1d1d22;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 360px;
+	resize: none;
+	height: 35px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form form textarea:focus{
+	height: 70px;
+	border-bottom-color: #df1f1f;
+	transition: all .4s;
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form form input[type="submit"]{
+	width: 115px;
+	border-radius: 25px;
+	background-color: transparent;
+	border: 2px solid #df1f1f;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #df1f1f;
+	padding: 10px 0;
+	margin-top: 50px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form form input[type="submit"]:hover{
+	background-color: #df1f1f;
+	color: white;
+}
+@media (min-width: 750px) and (max-width: 1170px){
+	.torokhtiy_contact{
+	
+	padding-bottom: 40px;
+}
+.torokhtiy_contact:before{
+	content: none;
+	
+}
+.torokhtiy_contact:after{
+	content: none;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact a{
+	font-size: 20px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .viber{
+	width: 280px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .viber span{
+	font-size: 18px;
+	padding-left: 8px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network{
+	margin-top: 40px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network li{
+	    padding-right: 50px;
+    padding-left: 1px;
+    border: none;
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form{
+	overflow: hidden;
+}
+
+}
+@media (min-width: 320px) and (max-width: 750px){
+.torokhtiy_contact .torokhtiy_contact_title h2{
+	
+	margin-bottom: 40px;
+}
+.torokhtiy_contact:before{
+	content: none;
+	
+}
+.torokhtiy_contact:after{
+	content: none;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact a{
+	font-size: 20px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .viber{
+	width: 260px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .viber span{
+	font-size: 16px;
+	padding-left: 8px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network{
+	left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network li:first-child{
+	padding-left: 50px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network li:nth-child(2){
+	border: none;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network li:nth-child(3){
+	padding-left: 51px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form{
+	width: 290px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .copyright{
+	position: absolute;
+	bottom: -430px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .social_contact .social_network:after{
+	    bottom: -370px;
+	    left: 50%;
+	    transform: translate(-50%, 0);
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form form input[type="submit"]{
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form form input{
+	width: 260px;
+}
+.torokhtiy_contact .torokhtiy_contact_content .post_form form textarea{
+	width: 260px;
+}
+}
+
