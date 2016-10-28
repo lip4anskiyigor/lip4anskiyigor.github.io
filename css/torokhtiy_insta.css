@@ -39,7 +39,7 @@
 .torokhtiy_insta .torokhtiy_insta_wrap .torokhtiy_insta_wrap_bg:before{
 	content: '';
 	width: 70%;
-	background-color: red;
+	background-color: #df1f1f;
 	position: absolute;
 	top: 0;
 	left: 0;
